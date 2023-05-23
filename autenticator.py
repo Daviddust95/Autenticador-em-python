@@ -19,4 +19,4 @@ def login():
         return jsonify({'message': 'Nome de usuário ou senha incorretos.'}), 401
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
